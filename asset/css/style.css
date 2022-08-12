@@ -88,5 +88,61 @@ body{
     border: 1px solid #54a0ff;
 }
 /* end login */
+#content{
+    padding: 5px;
+    height: 45px;
+    width: 400px;
+    resize: none;
+}
+.form-control button{
+    height: 57px;
+    line-height: 45px;
+    border: none;
+    padding: 5px;
+    background: #ccc;
+    text-align: center;
+    width: 80px;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.form-control{
+    display: flex;
+}
+#list-task{
+    width: 600px;
 
+}
+#list-task h4{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+#list-task ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#list-task ul li{
+    display: flex;
+    background: #f1f1f1;
+    padding: 5px;
+    margin-bottom: 5px;
+    justify-content: space-around;
+}
+#list-task ul li div{
+    width: 80%;
+    
+}
+#list-task ul li a{
+    text-decoration: none;
+    display: block;
+    margin-right: 5px;
+    color: #333;
+    padding: 5px;
+    border-radius: 5px;
+}
+#list-task ul li a:nth-of-type(2){
+    background: #54a0ff;
+}
 
